@@ -1,0 +1,788 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container{
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 90px;
+}
+
+body{
+    font-family: Inter;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+.bundle-holder{
+    background: #383230;
+}
+.bundle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+}
+.bundle-left{
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+}
+.bundle-right{
+    display: flex;
+    gap: 32px;
+
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 12px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
+.italic-link img{
+
+width: 81px;
+height: 20px;
+}
+
+.nav-content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a{
+    color:#383230;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    
+}
+
+.sign-in{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+text-align: center;
+
+}
+
+.user-sign{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.main-header{
+    margin-top: 76px;
+    margin-bottom: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-header h1{
+    font-family: EB Garamond;
+font-size: 48px;
+font-weight: 400;
+line-height: 76.8px;
+letter-spacing: 3.200000047683716px;
+text-align: left;
+
+}
+
+.header-background{
+    background-image: url("./images/background.jpg");
+    width: 1200px;
+    height: 640px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 78px;
+}
+
+.learn-more-btn{
+position: relative;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: #000000;
+border: 0;
+background-color: #FFFFFF;
+outline: none;
+
+}
+
+.learn-more-btn::after{
+
+    left: 0;
+    content: '';
+    width: 76px;
+    position: absolute;
+    bottom: -6px;
+    height: 1px;
+    background: #000000;
+}
+
+.text-btn-holder{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.luxery-text{
+    font-family: EB Garamond;
+font-size: 34px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 2px;
+text-align: center;
+
+    margin-bottom: 43px;
+}
+
+.learn-more-holder{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 86px;
+}
+.brands{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.brands-holder{
+    background: #F9F7F4;
+    width: 100%;
+
+    height: 
+    80px;
+
+    padding-top: 32px;
+
+    margin-bottom: 100px;
+}
+
+.woman-towels{
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 118px;
+}
+
+.black-woman img{
+max-width: 100%;
+    height: 333px;
+}
+.towels img{
+    max-width: 100%;
+height: 333px;
+}
+.picture-headers{
+margin-bottom: 11px;
+font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 34px;
+/* identical to box height, or 134% */
+letter-spacing: 0.7px;
+
+color: #000000;
+
+
+}
+
+.desc{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+
+}
+.towels{
+    max-width: 484px;
+}
+.jewelry-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.shop-arrivals{
+padding: 12px 16px;
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 14px;
+text-align: center;
+background-color: #FFFFFF;
+outline: none;
+cursor: pointer;
+border: 1px solid #000000;
+border-radius: 0px;
+
+}
+.jewelry-left-side{
+    margin-right: 109px;
+}
+
+.jewelry-left-side h3{
+    font-family: EB Garamond;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: 2.4000000953674316px;
+    text-align: left;
+    margin-bottom: 31px;
+    
+}
+
+.jewelry-left-side div{
+    font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 25.6px;
+text-align: left;
+margin-bottom: 42px;
+
+}
+
+.jewelry-right-side{
+    display: flex;
+    gap: 10px;
+}
+
+.jewelry-image{
+    position: relative;
+}
+
+.quick-view-btn{
+    cursor: pointer;
+    bottom: 20px;
+    left: 50%; /* Располагаем элемент по горизонтали на 50% относительно родительского элемента */
+    transform: translate(-50%, 65%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+outline: none;
+width: 257px;
+justify-content: center;
+gap: 9px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 0px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
+text-align: center;
+
+color: #000000;
+
+
+}
+
+.jewelry-card h3{
+    padding-top: 14px;
+    max-width: 218px;
+    padding-bottom: 6px;
+
+    font-family: EB Garamond;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.2px;
+letter-spacing: 0.4000000059604645px;
+text-align: left;
+
+}
+
+.jewelry-content{
+border: 1px solid #E0DBD2;
+padding-left: 6px;
+height: 146px;
+margin-bottom: 89px;
+}
+
+.manufacturer-as{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+text-align: left;
+color: #8C8C8C;
+
+}
+
+.manufacturer span{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    margin-bottom: 13px;
+}
+
+.jewelry-price-holder{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 19px;
+    margin-top: 13px;
+}
+
+.jewelry-price{
+    font-family: IBM Plex Mono;
+font-size: 11px;
+font-weight: 400;
+line-height: 12px;
+text-align: left;
+
+}
+.jewelry-color{
+    font-family: IBM Plex Mono;
+font-size: 11px;
+font-weight: 400;
+line-height: 12px;
+text-align: left;
+color: #8C8C8C;
+}
+
+.line{
+    width: 490px;
+height: 1px;
+top: 2586px;
+left: 630px;
+gap: 0px;
+opacity: 0px;
+background: #000000;
+
+}
+.items-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    margin-bottom: 88px;
+}
+
+.discover-btn{
+    width: 130px;
+height: 32px;
+border: 1px solid black;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+text-align: center;
+outline: none;
+background-color: #FFFFFF;
+}
+
+.refresh-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.refresh-flex p{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    
+    max-width: 740px;
+}
+
+.refresh-images{
+    display: flex;
+    gap: 41px;
+    margin-bottom: 118px;
+}
+
+.jewelry-refresh-cards{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    justify-items: center
+
+}
+.jewelry-refresh-cards .jewelry-card{
+    height:364px;
+}
+.jewelry-refresh-cards .jewelry-content{
+    height: 129px;
+}
+
+.jewelry-refresh-cards .jewelry-image img{
+height: 225px;
+}
+.jewelry-refresh-cards button{
+    width: 198px;
+}
+.jewelry-image{
+    height: 220px;
+}
+.jewelry-right-side .jewelry-image{
+    height: 287px;
+}
+.explore-holder h3{
+    font-family: EB Garamond;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38.4px;
+    letter-spacing: 0.800000011920929px;
+    text-align: left;
+    margin-bottom: 21px;
+}
+
+.explores-staff{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.explore-item img{
+    max-width: 100%; /* Заполнение всей ширины блока */
+    height: auto;
+}
+.explore-item{
+
+    max-width: 100%; 
+}
+
+.explore-item h4{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    margin-bottom: 151px;
+}
+
+.cookware-pillows{
+    display: flex;    
+    gap: 30px;
+}
+.cookware-pillows img{
+    max-width: 100%;
+}
+
+.cookware-pillows h3{
+    font-family: EB Garamond;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33.6px;
+    letter-spacing: 0.699999988079071px;
+    text-align: left;
+    
+}
+
+.cookware-pillows p{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+color: 
+#555555;
+margin-bottom: 142px;
+}
+
+.alter-background{
+    background: #F9F7F4;
+    height: 640px;
+}
+
+.shop-button{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+text-align: center;
+color: #FFFFFF;
+background: #383230;
+outline: none;
+border: none;
+    padding: 11px 15px;
+    cursor: pointer;
+}
+.atelier-content{
+    padding-top:142px ;
+    max-width: 380px;
+}
+.atelier-content p{
+    font-family: EB Garamond;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.atelier-content span{
+
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+text-align: left;
+color: 
+#817A70;
+margin-bottom: 30px;
+}
+
+.atelier-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.atelier-girl img{
+    padding-top: 80px;
+    max-width: 100%;
+}
+
+.footer{
+    background: #383230;
+
+}
+
+.footer-content{
+
+    display: flex;
+    justify-content: space-between;
+}
+.first-column-footer{
+    padding-top: 77px;
+    margin-bottom: 207px;
+    max-width: 313px;
+}
+.first-column-footer h2{
+    font-family: EB Garamond;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    text-align: left;
+    color: 
+    #FFFFFF;    
+    margin-bottom: 16px;
+}
+
+.first-column-footer p{
+    font-family: EB Garamond;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.8px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+color: #E0DBD2;
+margin-bottom: 23px;
+}
+
+.input-button{
+    display: flex;
+    gap: 8px;
+}
+
+.input-button input{
+    border: 1px solid #8C8C8C;
+    width: 239px;
+height: 48px;
+border-radius: 4px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background: none;
+    color: white;
+    font-size: 24px;
+    padding: 0px 10px;
+}
+
+.input-button button{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+text-align: center;
+padding: 15px 13px;
+}
+
+.p-78{
+    padding-top: 78px;
+    display: flex;
+gap: 130px;
+}
+
+.footer-content span{
+
+    font-family: IBM Plex Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #817A70;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-content ul li a{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #E0DBD2;    
+
+}
+.footer-content li{
+    margin-top: 15px;
+}
+
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.footer-bottom span{
+    font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 10px;
+text-align: left;
+color: #8C8C8C;
+
+}
+
+@media (max-width: 1070px) {
+    .footer-content{
+        flex-direction: column;
+    }
+    .towels img,
+    .black-woman img{
+        height: auto;
+    }
+    .container{
+        padding: 0px 15px;
+    }
+    .refresh-images{
+        flex-direction: column;
+    }
+    .refresh-left img{
+        max-width: 100%;
+    }
+    .explore-staff{
+        height: 207px;
+    }
+    .cookware-pillows{
+        flex-direction: column;
+    }
+    .explore-holder{
+        margin-bottom: 100px;
+    }
+    .explores-staff{
+        flex-direction: column;
+    }
+}
+@media(max-width:915px){
+    .woman-towels{
+        flex-direction: column;
+    }
+    .refresh-flex{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .jewelry-holder{
+        flex-direction: column;
+    }
+    .jewelry-left-side{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .jewelry-left-side{
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 815px){
+.atelier-holder{
+    flex-direction: column;
+}
+.alter-background{
+    padding-bottom: 1100px;
+}
+.atelier-content{
+    display: flex;
+    flex-direction: column;    
+    padding-top: 50px;
+}
+}
+@media(max-width: 700px){
+    .nav-links{
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .jewelry-right-side{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .jewelry-refresh-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .jewelry-refresh-cards .jewelry-card{
+        width: 225px    ;
+    }
+}
